@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		A432AA071D37323C00D44ED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A432AA061D37323C00D44ED5 /* main.m */; };
 		A432AA0A1D37323C00D44ED5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A432AA091D37323C00D44ED5 /* AppDelegate.m */; };
-		A432AA0D1D37323C00D44ED5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A432AA0C1D37323C00D44ED5 /* ViewController.m */; };
 		A432AA101D37323C00D44ED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A432AA0E1D37323C00D44ED5 /* Main.storyboard */; };
 		A432AA121D37323C00D44ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A432AA111D37323C00D44ED5 /* Assets.xcassets */; };
 		A432AA151D37323C00D44ED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A432AA131D37323C00D44ED5 /* LaunchScreen.storyboard */; };
+		A432AA1E1D3732F900D44ED5 /* NSDate+MW.m in Sources */ = {isa = PBXBuildFile; fileRef = A432AA1D1D3732F900D44ED5 /* NSDate+MW.m */; };
+		A432AA221D373A0B00D44ED5 /* MWOCCategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A432AA211D373A0B00D44ED5 /* MWOCCategoryTableViewController.m */; };
+		A432AA241D373A5700D44ED5 /* OCCategoryItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = A432AA231D373A5700D44ED5 /* OCCategoryItems.plist */; };
+		A432AA271D373D3800D44ED5 /* NSString+MW.m in Sources */ = {isa = PBXBuildFile; fileRef = A432AA261D373D3800D44ED5 /* NSString+MW.m */; };
+		A432AA2A1D37404500D44ED5 /* MWItemMethodsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A432AA291D37404500D44ED5 /* MWItemMethodsController.m */; };
+		A432AA2C1D37412B00D44ED5 /* NSDate+MW_Functions.plist in Resources */ = {isa = PBXBuildFile; fileRef = A432AA2B1D37412B00D44ED5 /* NSDate+MW_Functions.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,20 @@
 		A432AA061D37323C00D44ED5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A432AA081D37323C00D44ED5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A432AA091D37323C00D44ED5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A432AA0B1D37323C00D44ED5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A432AA0C1D37323C00D44ED5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A432AA0F1D37323C00D44ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A432AA111D37323C00D44ED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A432AA141D37323C00D44ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A432AA161D37323C00D44ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A432AA1C1D3732F900D44ED5 /* NSDate+MW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MW.h"; sourceTree = "<group>"; };
+		A432AA1D1D3732F900D44ED5 /* NSDate+MW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MW.m"; sourceTree = "<group>"; };
+		A432AA201D373A0B00D44ED5 /* MWOCCategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWOCCategoryTableViewController.h; sourceTree = "<group>"; };
+		A432AA211D373A0B00D44ED5 /* MWOCCategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWOCCategoryTableViewController.m; sourceTree = "<group>"; };
+		A432AA231D373A5700D44ED5 /* OCCategoryItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OCCategoryItems.plist; sourceTree = "<group>"; };
+		A432AA251D373D3800D44ED5 /* NSString+MW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MW.h"; sourceTree = "<group>"; };
+		A432AA261D373D3800D44ED5 /* NSString+MW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MW.m"; sourceTree = "<group>"; };
+		A432AA281D37404500D44ED5 /* MWItemMethodsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWItemMethodsController.h; sourceTree = "<group>"; };
+		A432AA291D37404500D44ED5 /* MWItemMethodsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWItemMethodsController.m; sourceTree = "<group>"; };
+		A432AA2B1D37412B00D44ED5 /* NSDate+MW_Functions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NSDate+MW_Functions.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +71,13 @@
 		A432AA041D37323C00D44ED5 /* Category_OC */ = {
 			isa = PBXGroup;
 			children = (
+				A432AA1F1D3732FD00D44ED5 /* Category */,
 				A432AA081D37323C00D44ED5 /* AppDelegate.h */,
 				A432AA091D37323C00D44ED5 /* AppDelegate.m */,
-				A432AA0B1D37323C00D44ED5 /* ViewController.h */,
-				A432AA0C1D37323C00D44ED5 /* ViewController.m */,
+				A432AA201D373A0B00D44ED5 /* MWOCCategoryTableViewController.h */,
+				A432AA211D373A0B00D44ED5 /* MWOCCategoryTableViewController.m */,
+				A432AA281D37404500D44ED5 /* MWItemMethodsController.h */,
+				A432AA291D37404500D44ED5 /* MWItemMethodsController.m */,
 				A432AA0E1D37323C00D44ED5 /* Main.storyboard */,
 				A432AA111D37323C00D44ED5 /* Assets.xcassets */,
 				A432AA131D37323C00D44ED5 /* LaunchScreen.storyboard */,
@@ -75,8 +91,21 @@
 			isa = PBXGroup;
 			children = (
 				A432AA061D37323C00D44ED5 /* main.m */,
+				A432AA231D373A5700D44ED5 /* OCCategoryItems.plist */,
+				A432AA2B1D37412B00D44ED5 /* NSDate+MW_Functions.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A432AA1F1D3732FD00D44ED5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A432AA1C1D3732F900D44ED5 /* NSDate+MW.h */,
+				A432AA1D1D3732F900D44ED5 /* NSDate+MW.m */,
+				A432AA251D373D3800D44ED5 /* NSString+MW.h */,
+				A432AA261D373D3800D44ED5 /* NSString+MW.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +165,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A432AA2C1D37412B00D44ED5 /* NSDate+MW_Functions.plist in Resources */,
 				A432AA151D37323C00D44ED5 /* LaunchScreen.storyboard in Resources */,
+				A432AA241D373A5700D44ED5 /* OCCategoryItems.plist in Resources */,
 				A432AA121D37323C00D44ED5 /* Assets.xcassets in Resources */,
 				A432AA101D37323C00D44ED5 /* Main.storyboard in Resources */,
 			);
@@ -149,7 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A432AA0D1D37323C00D44ED5 /* ViewController.m in Sources */,
+				A432AA1E1D3732F900D44ED5 /* NSDate+MW.m in Sources */,
+				A432AA2A1D37404500D44ED5 /* MWItemMethodsController.m in Sources */,
+				A432AA221D373A0B00D44ED5 /* MWOCCategoryTableViewController.m in Sources */,
+				A432AA271D373D3800D44ED5 /* NSString+MW.m in Sources */,
 				A432AA0A1D37323C00D44ED5 /* AppDelegate.m in Sources */,
 				A432AA071D37323C00D44ED5 /* main.m in Sources */,
 			);

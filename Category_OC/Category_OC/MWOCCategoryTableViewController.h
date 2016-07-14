@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MWOCCategoryTableViewController.h
 //  Category_OC
 //
 //  Created by wangwendong on 16/7/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MWOCCategoryTableViewController : UITableViewController
 
 @end
-
